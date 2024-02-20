@@ -74,3 +74,8 @@ button {
   transition: color 300ms ease-in-out;
   z-index: 1;
 }
+
+.btn.btn-background-slide:hover,
+.btn.btn-background-slide:focus {
+  color: white;
+}
