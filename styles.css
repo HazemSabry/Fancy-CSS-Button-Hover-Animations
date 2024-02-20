@@ -69,3 +69,8 @@ button {
 .btn.btn-background-slide:focus::before {
   transform: scaleX(1);
 }
+
+.btn.btn-background-slide {
+  transition: color 300ms ease-in-out;
+  z-index: 1;
+}
