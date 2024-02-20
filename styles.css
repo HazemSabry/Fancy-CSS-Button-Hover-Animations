@@ -99,3 +99,10 @@ button {
 .btn.btn-background-circle:focus::before {
   transform: scale(0);
 }
+
+.btn.btn-background-circle {
+  z-index: 1;
+  overflow: hidden;
+  background-color: var(--accent-color);
+  transition: color 500ms ease-in-out;
+}
