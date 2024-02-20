@@ -94,3 +94,8 @@ button {
 
   transform: scale(1.5);
 }
+
+.btn.btn-background-circle:hover::before,
+.btn.btn-background-circle:focus::before {
+  transform: scale(0);
+}
