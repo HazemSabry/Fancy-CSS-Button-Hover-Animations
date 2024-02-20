@@ -64,3 +64,8 @@ button {
   transform: scaleX(0);
   transform-origin: left;
 }
+
+.btn.btn-background-slide:hover::before,
+.btn.btn-background-slide:focus::before {
+  transform: scaleX(1);
+}
