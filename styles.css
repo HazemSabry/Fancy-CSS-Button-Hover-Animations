@@ -124,3 +124,8 @@ button {
 
   transform: scaleX(0);
 }
+
+.btn.btn-border-underline:hover::before,
+.btn.btn-border-underline:focus::before {
+  transform: scaleX(1);
+}
