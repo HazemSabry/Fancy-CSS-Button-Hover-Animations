@@ -11,3 +11,7 @@ body {
   flex-wrap: wrap;
   margin: 0;
 }
+
+button {
+  margin: 1rem;
+}
